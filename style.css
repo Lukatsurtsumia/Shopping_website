@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+     height: 105px;
+    background-color: #000000;
+    display: flex;
+}
+.logo{
+    max-width: 120px;
+    max-height: 90px;
+    margin: 10px 130px;
+}
+header ul{
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 150px;
+}
+
+header li{
+    display: inline-block;
+    margin: 0 65px;
+    font-size: 32px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+button{
+    margin-top: 28px;
+    width: 120px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: black;
+    background-color: #ffffff;
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+.log_btn{
+    margin-left: 170px ;
+}
+.log_btn a{
+    color: black;
+}
+.list-link{
+    position: relative;
+}
+.list .list-link::after{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    width: 0%;
+    height: 3px;
+    background: #ffffff;
+    transition: 0.3s ease-out;
+}
+.list .list-link:hover::after{
+    width: 100%;
+    left: 0;
+}
+/*BODY**************************************/
+.firm_box{
+    position: absolute;
+    width: 320px;
+    height: 70px;
+    background-color: #676767;
+    margin-left: 40%;
+    margin-top: 16px;
+    border: 3px solid #676767;
+    opacity: 3;
+    border-radius: 3px;
+}
+.firm_box p{
+    margin-left: 68px;
+    margin-top: 15px;
+    font-family: 'Georgia', sans-serif;
+}
+.icon_box{
+    position: absolute;
+    border: solid 1px black;
+    width: 230px;
+    height: 150px;
+    margin-left: 12%;
+    margin-top: 54px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    box-shadow: 4px 4px;
+}
+.icon_box i{
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 80px;
+}
+.main_box{
+    width: 75%;
+    border: solid 3px black;
+    height: 647px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    margin-left: 12%;
+
+}
+h1{
+    font-family: 'Magneto', sans-serif;
+    font-size: 70px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+/* Cards******************************/
+.video_container{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.new_cards{
+    display: flex;
+    align-items: stretch;
+    margin:20px 20px;
+}
+.new_card{
+    flex: 1;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px;
+    width: 100px;
+    height: 300px;
+}
+video{
+    height: 100%;
+    width:100%;
+}
+
+ /*FOOTER***********************************************************/
+footer{
+    width: 100%;
+    height: 110px;
+    background-color: #000000;
+    margin-top: 45px;
+}
+.foot{
+    margin-left: 43%;
+}
+p{
+    margin-left: 45%;
+    color: White;
+    font-size: 29px;
+    font-family: sans-serif;
+}
+h5{
+    font-size: 18px;
+    margin-left: 48%;
+    margin-top: 9px;
+    color: white;
+}
+.foot_container {
+    margin-left: 44%;
+}
+.foot_container ul li{
+    display: inline-block;
+}
+.foot_container li i{
+    font-size: 22px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/*Pop Up box ****************/
+.popup{
+    position: absolute;
+    margin-left: 90%;
+}
+footer button{
+    position: absolute;
+    margin-left: 90%;
+    color: #ffffff;
+    font-size: 30px;
+   margin-top: 30px;
+    background-color: black;
+}
+.popup p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+    margin-left: 5px;
+}
+.popup .content{
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: 250px;
+    height: 85px;
+    z-index: 2;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 55px;
+}
+.popup .close-btn{
+    position: absolute;
+    right: 20px;
+    top:10px;
+    width: 30px;
+    height: 30px;
+    background: #222;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius:50%;
+    cursor: pointer;
+}
+.popup.active .overlay{
+    display: block;
+}
+.popup.active .content{
+    transition: all 30ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+footer i{
+    cursor: pointer;
+}

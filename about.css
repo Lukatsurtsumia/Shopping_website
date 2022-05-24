@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back i{
+    font-size: 70px;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: black;
+}
+h1{
+    margin-left: 42%;
+    font-size: 60px;
+    font-family: 'Magneto',sans-serif;
+    margin-top: 250px;
+}
+.about{
+    width: 850px;
+    margin-left: 26%;
+    margin-top: 50px;
+}
+.about h3, h4, p,h6{
+    text-align: center;
+}
+.about h3{
+    font-size: 24px;
+}
+.about h4{
+    font-size: 22px;
+    margin-top: 15px;
+}
+.about p, h6{
+    margin-top: 5px;
+    font-size: 18px;
+}

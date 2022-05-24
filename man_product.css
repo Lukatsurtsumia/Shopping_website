@@ -1,0 +1,71 @@
+.title h1{
+    font-family: 'Magneto', sans-serif;
+    margin-left: 41%;
+    font-size: 60px;
+    margin-top: 35px;
+    margin-bottom: 27px;
+}
+.line{
+    width: 99%;
+    height: 1px;
+    border: 5px solid black;
+    margin-left: 2px;
+}
+.product_list {
+    display: flex;
+    margin-left: 140px;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.man_container{
+    border: 1px solid black;
+    width: 280px;
+    height: 480px;
+    margin-left: 100px;
+    margin-top: 83px;
+
+}
+.man_img img{
+    width: 100%;
+    height: 100%;
+    max-width: 279px;
+    max-height: 300px;
+}
+.man_container button{
+    width: 120px;
+    height: 37px;
+    border-radius: 10px;
+    margin-top: 27px;
+    margin-left: 29%;
+}
+.price h3{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.man_container h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+.stars{
+    margin-left: 23%;
+    margin-top: 15px;
+}
+.stars i{
+    font-size: 25px;
+}
+.cart {
+position: absolute;
+    margin-left: 85%;
+    margin-top: 50px;
+}
+.cart i{
+    color: black;
+    font-size: 45px;
+}
+#cart_count{
+    color: black;
+    font-size: 29px;
+}

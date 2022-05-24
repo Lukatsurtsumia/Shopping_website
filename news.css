@@ -1,0 +1,61 @@
+.news_title h1{
+    margin-left: 45%;
+    font-size: 70px;
+    margin-top: 50px;
+}
+.News{
+  display: flex;
+}
+.news_card h2{
+    margin-left: 270px;
+    font-size: 38px;
+    font-family: 'Magneto', sans-serif;
+}
+.news_card{
+    margin-left: 5px;
+ }
+
+.prod_card{
+    border: 3px solid black;
+    width: 765px;
+    height: 600px;
+}
+.prod_card img{
+    width: 100%;
+    max-width: 660px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.prod_card h1{
+    font-size: 50px;
+    margin-left: 230px;
+}
+.sale_card{
+    margin-left: 43%;
+}
+.sales_card h2{
+    margin-left: 730px;
+    font-size: 38px;
+    font-family: 'Magneto', sans-serif;
+}
+.sale_card{
+    border: 3px solid black;
+    width: 765px;
+    height: 600px;
+}
+.sale_card img{
+    width: 100%;
+    max-width: 700px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.stars{
+    font-size: 30px;
+    margin-left: 36%;
+    margin-top: 30px;
+}
+footer{
+    width: 100%;
+    height: 33px;
+    background-color: black;
+}
